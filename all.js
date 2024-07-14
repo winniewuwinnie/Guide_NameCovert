@@ -408,11 +408,11 @@ let data = [{
     nickName: "志柔",
     name: "周志柔"
   },
-  {
-    type: "視障朋友",
-    nickName: "靖雅",
-    name: "曾靖雅"
-  },
+  // {
+  //   type: "視障朋友",
+  //   nickName: "靖雅",
+  //   name: "曾靖雅"
+  // },
   {
     type: "視障朋友",
     nickName: "宗裕",
