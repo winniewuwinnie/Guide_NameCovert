@@ -205,7 +205,7 @@ let data = [{
   },
   {
     type: "視障朋友",
-    nickName: "宏祐",
+    nickName: ["宏祐", "小祐","宏𧙗"],
     name: "李宏祐"
   },
   {
@@ -270,12 +270,12 @@ let data = [{
   },
   {
     type: "視障朋友",
-    nickName: "雅薇",
+    nickName: ["雅薇", "小鴨子", "理事長"],
     name: "許雅薇"
   },
   {
     type: "視障朋友",
-    nickName: "志杰",
+    nickName: ["志杰","敝Jacky"],
     name: "姚志杰"
   },
   {
@@ -283,7 +283,6 @@ let data = [{
     nickName: "佩芳",
     name: "劉佩芳"
   },
-
   {
     type: "視障朋友",
     nickName: "楣楣",
@@ -306,7 +305,7 @@ let data = [{
   },
   {
     type: "視障朋友",
-    nickName: "特爾",
+    nickName: ["特爾","特特"],
     name: "紀和成"
   },
   {
@@ -376,7 +375,7 @@ let data = [{
   },
   {
     type: "視障朋友",
-    nickName: "彥邦",
+    nickName: ["彥邦", "小邦"],
     name: "蘇彥邦"
   },
   {
@@ -421,11 +420,6 @@ let data = [{
   },
   {
     type: "視障朋友",
-    nickName: "敝Jacky",
-    name: "姚志杰"
-  },
-  {
-    type: "視障朋友",
     nickName: "育慧",
     name: "陳育慧"
   },
@@ -433,6 +427,21 @@ let data = [{
     type: "視障朋友",
     nickName: "柏禧",
     name: "梁柏禧"
+  },
+  {
+    type: "視障朋友",
+    nickName: "筱文",
+    name: "陳筱文"
+  },
+  {
+    type: "視障朋友",
+    nickName: "京諭",
+    name: "吳京諭"
+  },
+  {
+    type: "視障朋友",
+    nickName: "秀月",
+    name: "紀秀月"
   },
 
   {
@@ -452,7 +461,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "美惠",
+    nickName: ["美惠","美恵"],
     name: "許美惠"
   },
   {
@@ -542,7 +551,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "小向",
+    nickName: ["小向", "向"],
     name: "向益寬"
   },
   {
@@ -752,7 +761,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "笑笑",
+    nickName: ["笑笑","立琦"],
     name: "張立琦"
   },
   {
@@ -767,11 +776,6 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "桂蘭",
-    name: "邱桂蘭"
-  },
-  {
-    type: "陪跑員",
     nickName: "閻哥",
     name: "閻正君"
   },
@@ -782,7 +786,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "思瑀",
+    nickName: ["思瑀","苔苔"],
     name: "邰思瑀"
   },
   {
@@ -814,11 +818,6 @@ let data = [{
     type: "陪跑員",
     nickName: "佩芸",
     name: "蔡佩芸"
-  },
-  {
-    type: "陪跑員",
-    nickName: "雅惠",
-    name: "張雅惠"
   },
   {
     type: "陪跑員",
@@ -952,7 +951,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "偉倩",
+    nickName: ["偉倩","小倩"],
     name: "高偉倩"
   },
   {
@@ -990,11 +989,11 @@ let data = [{
     nickName: "月娥",
     name: "侯月娥"
   },
-  {
-    type: "陪跑員",
-    nickName: "淑君",
-    name: "盧淑君"
-  },
+  // {
+  //   type: "陪跑員",
+  //   nickName: "淑君",
+  //   name: "盧淑君"
+  // },
   {
     type: "陪跑員",
     nickName: "品萱",
@@ -1231,23 +1230,8 @@ let data = [{
     name: "吳宗鴻"
   },
 ];
-// 叮咚～今天是seven eleven 日，所以我們把小小七搬來國館啦！越早接龍補給越豐富🐷
-
-// 日期: 7月11日星期四
-// 時間: 晚上7:30     
-// 地點: 國父紀念館捷運站4號出口(如需引導請出聲) 
-
-// 視障朋友：阿達、姿蓉、小葉、福德、謙任、子曄、佩芳、小地瓜、宏祐、文秋、秀蘭、承堯、佑阡、育慧、雅茹、玉玲、昌澤、宗裕、淑怡、楣楣、欣芳、柏禧、安仔（23）
-
-// 陪跑員：金玉、美惠、冠華、宇玫、紅豆、國基、世全、庭瑋、林于萍、思瑀、雅郁、怡汝、書婷、豆爸、豆媽、瑞蘭、文彥、菊歡、思婷、鈺淇、豫芬、阿其、靖雅、益寬（24）
-
-// 新視友: 黃靜湄、林君達
-
-// 新陪跑員：
-
-// 顧包包：常宇、敝Jacky
-// 補給小幫手：小向、姿璇
 let str = ``;
+let covertStr = ``
 
 const finalText = document.querySelector(".finalText");
 const textarea = document.querySelector(".textarea");
@@ -1255,19 +1239,47 @@ const covertBtn = document.querySelector(".covertBtn");
 const clearBtn = document.querySelector(".clearBtn");
 const copyBtn = document.querySelector(".copyBtn");
 
+//待修正：視障朋友、陪跑員分開跑轉換
+
+// function replaceNames(str, data, type) {
+//   data.filter(function(person) { return person.type === type; }).forEach(function(person) {
+//     var nickNames = Array.isArray(person.nickName) ? person.nickName : [person.nickName];
+//     nickNames.forEach(function(nick) {
+//       var regex = new RegExp(`(${type}：[^\\n]*?)${nick}(,|（|$)`, "g");
+//       str = str.replace(regex, `$1${person.name}$2`);
+//     });
+//   });
+//   return str;
+// }
+
+// str = replaceNames(str, data, "視障朋友");
+// str = replaceNames(str, data, "陪跑員");
+
+// console.log(str);
 
 //全名轉換
-function changeName() {
-  data.forEach(function (item, index) {
-    let regex = new RegExp(item.nickName, "g");
-    str = str.replace(regex, item.name);
+// function covertName() {
+//   data.forEach(function (item, index) {
+//     let regex = new RegExp(item.nickName, "g");
+//     str = str.replace(regex, item.name);
+//   });
+// }
+
+function covertName(str, data) {
+  data.forEach(function (person) {
+    var nickNames = Array.isArray(person.nickName) ? person.nickName : [person.nickName];
+    nickNames.forEach(function (nick) {
+      var regex = new RegExp(nick, "g");
+      str = str.replace(regex, person.name);
+    });
   });
-}
+  covertStr = str;
+};
 
 covertBtn.addEventListener("click", function (e) {
   str = textarea.value;
-  changeName(str);
-  finalText.innerHTML = str.replace(/\n/g, '<br>'); // 保持換行符號
+  covertName(str, data);
+  finalText.innerHTML = covertStr.replace(/\n/g, '<br>'); // 保持換行符號
 });
 
 //清空欄位
