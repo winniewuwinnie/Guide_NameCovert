@@ -469,11 +469,11 @@ let data = [{
     nickName: "姿璇",
     name: "吳姿璇"
   },
-  {
-    type: "陪跑員",
-    nickName: "于萍",
-    name: "林于萍"
-  },
+  // {
+  //   type: "陪跑員",
+  //   nickName: "于萍",
+  //   name: "林于萍"
+  // },
   {
     type: "陪跑員",
     nickName: "靖雅",
