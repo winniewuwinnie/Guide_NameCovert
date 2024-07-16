@@ -881,7 +881,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "閔惠",
+    nickName: ["閔惠","惠咩"],
     name: "詹閔惠"
   },
   {
