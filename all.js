@@ -443,6 +443,16 @@ let data = [{
     nickName: "秀月",
     name: "紀秀月"
   },
+  {
+    type: "視障朋友",
+    nickName: "君達",
+    name: "林君達"
+  },
+  {
+    type: "視障朋友",
+    nickName: "靜湄",
+    name: "黃靜湄"
+  },
 
   {
     type: "陪跑員",
@@ -581,7 +591,7 @@ let data = [{
   },
   {
     type: "陪跑員",
-    nickName: "書婷",
+    nickName: ["書婷","書庭"],
     name: "吳書婷"
   },
   {
@@ -769,11 +779,11 @@ let data = [{
     nickName: "雅民",
     name: "王雅民"
   },
-  {
-    type: "陪跑員",
-    nickName: "君達",
-    name: "魏君達"
-  },
+  // {
+  //   type: "陪跑員",
+  //   nickName: "君達",
+  //   name: "魏君達"
+  // },
   {
     type: "陪跑員",
     nickName: "閻哥",
